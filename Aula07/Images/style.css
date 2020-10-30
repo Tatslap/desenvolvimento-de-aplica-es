@@ -1,0 +1,23 @@
+/* 
+CSS REGRAS DE DEFINIÇÕES -->
+STYLE DENTRO DO COMPONENTE
+STYLE DENTRO NO CORPO DO HTML
+STYLE QUE VEM SCR
+*/
+H1{
+    COLOR: GREEN;
+    background-color: aqua;
+}
+p {
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Seletores */
+#listaAlpha{
+    list-style-type: lower-alpha;
+}
+
+th, td{
+    border: 2px solid black;
+}
