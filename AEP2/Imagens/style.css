@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(148, 251, 255);
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu a{
+    float: left;
+    display: block;
+    color: #f44336;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.menu hr{
+    width: 200%;
+    border-color: rgb(0, 0, 0);
+}
+
+.menu a:hover{
+    color: white;
+}
+
+#end{
+    margin-top: 1000px;
+}
+
+.siteend{
+    text-align: left;
+}
+.siteend hr{
+    border-color: rgb(0, 0, 0);
+}
+
+.siteend p {
+    color: rebeccapurple;
+}
