@@ -10,6 +10,7 @@
     
     <div class="container">
         <div class="card">
+            <img src="" class="card-img-top" alt="...">
             <div class="card-body">
                <ul class="list-group">
                     <li class="list-group-item">STATUS: #STATUS</li>
@@ -21,6 +22,16 @@
             </div>
         </div>
         <a class="btn btn-success" href="/">Voltar</a>
+
+        <div class="btn btn-primary btn-sm">
+            <form enctype="multipart/form-data" action="/src/classes/thumbTarefa.php" method="POST">
+                <!-- MAX_FILE_SIZE deve preceder o campo input -->
+                <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+                <!-- O Nome do elemento input determina o nome da array $_FILES -->
+                Enviar esse arquivo: <input name="userfile" type="file" />
+                <input type="submit" value="Enviar arquivo" />
+            </form>
+        </div>
     </div>
 
 
