@@ -73,7 +73,7 @@ class Tarefa
         return $this->imagem;
     }
 
-    public function setImagem(string $imagem)
+    public function setImagem($imagem)
     {
         $this->imagem = $imagem;
     }

@@ -23,7 +23,6 @@ foreach ($listaTarefasJSON as $tarefa) {
     $tr = str_replace('#NOME',  $tarefa->getNome(), $tr);
     $tr = str_replace('#DATALIMITE', $tarefa->getDataLimite(), $tr);
     $tr = str_replace('#MARCADO', $tarefa->getStatus() == 0 ? 'checked' : '', $tr);
-    $tr = str_replace('#IMAGEM', $tarefa->getImagem(), $tr);
     $linhasTabela .= $tr;
 }
 
