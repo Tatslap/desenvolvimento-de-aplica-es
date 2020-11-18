@@ -1,0 +1,40 @@
+body{
+    background-image: url(../resource/images/back.jpg);
+    background-size: 1368px 800px;
+    background-repeat: no-repeat;
+}
+
+div#form-body{
+    width: 420px;
+    margin: 150px auto 0px auto;
+    border: 1px solid black;
+}
+
+div#form-body h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 380px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 18pt;
+    padding: 10px 20px;
+}
+
+input#enviar{
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+input#enviar:hover{
+    background-color: mediumaquamarine;
+    font-weight: bold;
+}
+
+input#password{
+    margin: 8px 0px;
+}
